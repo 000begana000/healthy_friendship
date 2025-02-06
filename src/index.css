@@ -14,3 +14,35 @@ body {
   width: 1005px;
   margin: 0 auto;
 }
+
+.header {
+  margin-top: 170px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.header .heading {
+  width: 665px;
+  height: 341px;
+}
+
+.header h1 {
+  width: 467px;
+  font-size: 45px;
+  font-weight: bold;
+  line-height: 124.5%;
+  text-transform: capitalize;
+  margin: 0;
+}
+
+.header p {
+  font-size: 15px;
+  font-weight: light;
+  line-height: 183%;
+  margin-top: 17px;
+}
+
+.header img {
+  width: 232px;
+  height: 341px;
+}
