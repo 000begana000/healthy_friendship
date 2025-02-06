@@ -8,6 +8,31 @@ body {
   background-color: var(--purple);
   color: white;
   font-family: "Rubik", serif;
+  position: relative;
+}
+
+.circle-1 {
+  width: 696px;
+  height: 696px;
+  border-radius: 50%;
+  background-color: var(--pink);
+  opacity: 40%;
+  position: absolute;
+  top: -355px;
+  left: -145px;
+  z-index: -2;
+}
+
+.circle-2 {
+  width: 696px;
+  height: 696px;
+  border-radius: 50%;
+  background-color: var(--pink);
+  opacity: 40%;
+  position: absolute;
+  top: -355px;
+  right: -239px;
+  z-index: -2;
 }
 
 .container {

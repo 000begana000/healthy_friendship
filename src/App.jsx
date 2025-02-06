@@ -2,8 +2,12 @@ import Header from "./components/Header";
 
 export default function App() {
   return (
-    <div className="container">
-      <Header />
-    </div>
+    <>
+      <div className="circle-1"></div>
+      <div className="circle-2"></div>
+      <div className="container">
+        <Header />
+      </div>
+    </>
   );
 }
