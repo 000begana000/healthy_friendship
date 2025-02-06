@@ -1,0 +1,16 @@
+:root {
+  --purple: #6324eb;
+  --pink: #de3fdd;
+  --peach: #ef708e;
+}
+
+body {
+  background-color: var(--purple);
+  color: white;
+  font-family: "Rubik", serif;
+}
+
+.container {
+  width: 1005px;
+  margin: 0 auto;
+}
