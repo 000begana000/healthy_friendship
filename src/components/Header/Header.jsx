@@ -1,4 +1,5 @@
-import heroImg from "../assets/hero.png";
+import heroImg from "../../assets/hero.png";
+import "./Header.css";
 
 export default function Header() {
   return (
