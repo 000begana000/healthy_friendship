@@ -1,9 +1,12 @@
 // import { FREINDSHIPS } from "./data.js";
+import { useState } from "react";
 
 import Header from "./components/Header/Header";
 import TabButton from "./components/UI/TabButton";
 
 export default function App() {
+  const [selectedTopic, setSelectedTopic] = useState("trust");
+
   return (
     <>
       <div className="circle-1"></div>
@@ -15,6 +18,7 @@ export default function App() {
           <TabButton>royalty</TabButton>
           <TabButton>connection</TabButton>
           <TabButton>support</TabButton>
+          <div className="content"></div>
         </main>
       </div>
     </>
