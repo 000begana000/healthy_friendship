@@ -18,14 +18,28 @@ export default function App() {
       <div className="container">
         <Header />
         <main className="examples">
-          <TabButton onSelect={() => handleSelect("trust")}>trust</TabButton>
-          <TabButton onSelect={() => handleSelect("royalty")}>
+          <TabButton
+            isSelected={selectedTopic === "trust"}
+            onSelect={() => handleSelect("trust")}
+          >
+            trust
+          </TabButton>
+          <TabButton
+            isSelected={selectedTopic === "royalty"}
+            onSelect={() => handleSelect("royalty")}
+          >
             royalty
           </TabButton>
-          <TabButton onSelect={() => handleSelect("connection")}>
+          <TabButton
+            isSelected={selectedTopic === "connection"}
+            onSelect={() => handleSelect("connection")}
+          >
             connection
           </TabButton>
-          <TabButton onSelect={() => handleSelect("support")}>
+          <TabButton
+            isSelected={selectedTopic === "support"}
+            onSelect={() => handleSelect("support")}
+          >
             support
           </TabButton>
         </main>

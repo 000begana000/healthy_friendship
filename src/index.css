@@ -27,10 +27,10 @@ body {
   width: 696px;
   height: 696px;
   border-radius: 50%;
-  background-color: var(--pink);
-  opacity: 40%;
+  background-color: var(--peach);
+  opacity: 20%;
   position: absolute;
-  top: -355px;
+  top: 100px;
   right: -239px;
   z-index: -2;
 }
@@ -63,6 +63,10 @@ body {
 
 .examples button:hover {
   background-color: rgba(255, 255, 255, 0.2);
+}
+
+.examples button.active {
+  background-color: rgba(255, 255, 255, 0.3);
 }
 
 .card {
