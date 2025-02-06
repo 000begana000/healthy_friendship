@@ -64,3 +64,32 @@ body {
 .examples button:hover {
   background-color: rgba(255, 255, 255, 0.2);
 }
+
+.card {
+  width: 100%;
+  height: 393px;
+  background-color: rgba(222, 63, 221, 0.4);
+  border-radius: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 845px;
+}
+
+.content img {
+  width: 324px;
+  height: 244px;
+  z-index: 2;
+}
+
+.content p {
+  margin: 0;
+  width: 410px;
+  margin-left: 100px;
+}

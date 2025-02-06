@@ -1,4 +1,4 @@
-// import { FREINDSHIPS } from "./data.js";
+import { FREINDSHIPS } from "./data.js";
 import { useState } from "react";
 
 import Header from "./components/Header/Header";
@@ -29,7 +29,12 @@ export default function App() {
             support
           </TabButton>
         </main>
-        <div className="content">{selectedTopic}</div>
+        <div className="card">
+          <div className="content">
+            <img src={FREINDSHIPS[selectedTopic].img} alt="" />
+            <p>{FREINDSHIPS[selectedTopic].description}</p>
+          </div>
+        </div>
       </div>
     </>
   );
