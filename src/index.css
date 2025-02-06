@@ -39,3 +39,28 @@ body {
   width: 1005px;
   margin: 0 auto;
 }
+
+.examples {
+  list-style: none;
+  display: flex;
+  margin-left: 86px;
+  margin-top: 127.5px;
+}
+
+.examples button {
+  font-weight: bold;
+  text-transform: uppercase;
+  padding: 10px 20px;
+  width: 155px;
+  height: 54px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  background-color: transparent;
+  color: white;
+  border: 2px white solid;
+  margin-right: 15px;
+}
+
+.examples button:hover {
+  background-color: rgba(255, 255, 255, 0.2);
+}

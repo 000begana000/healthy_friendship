@@ -1,4 +1,4 @@
-export default function Button({ children }) {
+export default function TabButton({ children }) {
   return (
     <li>
       <button>{children}</button>
