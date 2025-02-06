@@ -7,6 +7,10 @@ import TabButton from "./components/UI/TabButton";
 export default function App() {
   const [selectedTopic, setSelectedTopic] = useState("trust");
 
+  function handleSelect(selectedButton) {
+    setSelectedTopic(selectedButton);
+  }
+
   return (
     <>
       <div className="circle-1"></div>
@@ -14,12 +18,18 @@ export default function App() {
       <div className="container">
         <Header />
         <main className="examples">
-          <TabButton>trust</TabButton>
-          <TabButton>royalty</TabButton>
-          <TabButton>connection</TabButton>
-          <TabButton>support</TabButton>
-          <div className="content"></div>
+          <TabButton onSelect={() => handleSelect("trust")}>trust</TabButton>
+          <TabButton onSelect={() => handleSelect("royalty")}>
+            royalty
+          </TabButton>
+          <TabButton onSelect={() => handleSelect("connection")}>
+            connection
+          </TabButton>
+          <TabButton onSelect={() => handleSelect("support")}>
+            support
+          </TabButton>
         </main>
+        <div className="content">{selectedTopic}</div>
       </div>
     </>
   );
