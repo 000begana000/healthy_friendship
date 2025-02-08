@@ -10,6 +10,7 @@ export default function Examples() {
   function handleSelect(selectedButton) {
     setSelectedTopic(selectedButton);
   }
+
   return (
     <>
       <main className="examples">
