@@ -19,3 +19,15 @@
 .examples button.active {
   background-color: rgba(255, 255, 255, 0.3);
 }
+
+@media only screen and (max-width: 768px) {
+  .examples button {
+    width: 120px;
+    height: 40px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    font-size: 13px;
+    padding: 0;
+    align-content: center;
+  }
+}
