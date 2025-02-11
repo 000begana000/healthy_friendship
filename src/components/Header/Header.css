@@ -55,3 +55,30 @@
     height: 321px;
   }
 }
+
+@media only screen and (max-width: 480px) {
+  .header {
+    margin-top: 50px;
+    width: 248px;
+    box-sizing: border-box;
+  }
+
+  .header .heading {
+    width: 156px;
+  }
+
+  .header h1 {
+    font-size: 30px;
+    width: 100%;
+    margin-top: 23px;
+  }
+
+  .header p {
+    display: none;
+  }
+
+  .header img {
+    width: 200px;
+    height: 300px;
+  }
+}

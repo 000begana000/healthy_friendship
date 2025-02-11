@@ -31,3 +31,15 @@
     align-content: center;
   }
 }
+
+@media only screen and (max-width: 480px) {
+  .examples button {
+    width: 80px;
+    height: 30px;
+    border-top-left-radius: 11px;
+    border-top-right-radius: 11px;
+    font-size: 9px;
+    padding: 0;
+    align-content: center;
+  }
+}
