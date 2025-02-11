@@ -30,7 +30,7 @@
   height: 341px;
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 947px) {
   .header {
     width: 545px;
     box-sizing: border-box;
