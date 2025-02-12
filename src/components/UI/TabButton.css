@@ -32,7 +32,7 @@
   }
 }
 
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 649px) {
   .examples button {
     width: 80px;
     height: 30px;
@@ -41,5 +41,6 @@
     font-size: 9px;
     padding: 0;
     align-content: center;
+    margin-right: 10px;
   }
 }

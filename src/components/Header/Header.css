@@ -2,6 +2,7 @@
   margin-top: 170px;
   display: flex;
   justify-content: space-between;
+  width: 100%;
 }
 
 .header .heading {
@@ -32,8 +33,7 @@
 
 @media only screen and (max-width: 947px) {
   .header {
-    width: 545px;
-    box-sizing: border-box;
+    width: 100%;
   }
 
   .header .heading {
@@ -56,11 +56,10 @@
   }
 }
 
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 649px) {
   .header {
     margin-top: 50px;
-    width: 248px;
-    box-sizing: border-box;
+    width: 100%;
   }
 
   .header .heading {

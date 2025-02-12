@@ -7,13 +7,17 @@
 body {
   margin: 0;
   padding: 0;
+  width: 100vw;
   box-sizing: border-box;
   background-color: var(--purple);
   color: white;
   font-family: "Rubik", serif;
   position: relative;
-  width: 100vw;
   overflow-x: hidden;
+  display: block;
+  -box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
 }
 
 .container {
@@ -34,7 +38,7 @@ body {
   z-index: -2;
 }
 
-.container::after {
+/* .container::after {
   content: "";
   width: 696px;
   height: 696px;
@@ -45,7 +49,7 @@ body {
   top: 100px;
   right: -239px;
   z-index: -2;
-}
+} */
 
 .examples {
   list-style: none;
@@ -85,12 +89,9 @@ body {
 }
 
 @media only screen and (max-width: 947px) {
-  body {
-    margin: 0 auto;
-  }
-
   .container {
     width: 545px;
+    margin: 0 auto 50px;
   }
 
   .container::before {
@@ -127,9 +128,13 @@ body {
   }
 }
 
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 649px) {
+  body {
+    overflow-x: hidden;
+  }
   .container {
-    width: 248px;
+    width: 350px;
+    margin: 0 auto 30px;
   }
 
   .container::before {
@@ -138,6 +143,7 @@ body {
   }
 
   .container::after {
+    overflow-x: hidden;
     width: 451px;
     height: 451px;
     top: 50px;
@@ -145,14 +151,12 @@ body {
   }
 
   .examples {
-    margin: 30px -30px 0;
-    width: 430px;
+    margin: 0 auto;
   }
 
   .card {
-    width: 450px;
+    width: 420px;
     height: 289px;
-    margin-left: -73px;
   }
 
   .content {
